@@ -1,0 +1,47 @@
+.center { text-align: center; }
+
+body { 
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.Yel {
+    background-color: yellow;
+    width:fit-content;
+    width: -moz-fit-content;
+    border: solid;
+    padding: 0.1% 0.1% 0.1% 0.1%;
+} 
+
+.Head {
+    background-color: yellow;
+    width: fit-content;
+    width:-moz-fit-content;
+    border: solid;
+    padding: 0.25% 0.5%;
+}
+
+.Txt {
+    background-color: yellow;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0px auto;
+}
+
+.ImgGroup {
+    max-width: 122px;
+    max-height: 118px;
+}
+
+#ImgOne {
+    max-width: 162px;
+    max-height: 154px;
+}
+
+.Ex {
+    background-color: greenyellow;
+    border: solid;
+    width: fit-content;
+}
+
+
