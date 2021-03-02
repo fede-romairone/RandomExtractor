@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Random Extraxtor</title>
+        <script type=text/javascript src="assets/js/oral test extractor (cHTML) obfuscated.js"></script>
+        <link rel="stylesheet" href="assets/style/Oral test extractor (CSS).css">
+        <link rel="icon" href="assets/style/question mark (icon).jfif">
+        <meta name="description" content="Random extractor for oral tests">
+        <meta name="author" content="Federico Romairone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body onload = 'f.HTML = new cHTML(f.Sel, Out, Out2, f.StudentNumber, f.Engender, Groups, List, List2,
+    "f.HTML.", "assets/image/", ".jpg", 
+
+    ["Anselmo", "Apicella", "Baccino", "Bianchi", "Franchello", "Romairone", "Minuto", 
+    "Iadanza", "Oddera", "Fiore", "Ottonello", "Fromhuller", "Quaranta", 
+    "Debenedetti", "Dellepiane", "Di Vita", "Poggi", "Rexhaj", "Nocchi", "Domenicali"], 
+
+    ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"])'>
+
+        <form name=f>
+            <div class="center">
+                <div align="center"><header><h1 class="Head"><u><b>RANDOM EXTRACTOR FOR ORAL TESTS</b></u></h1></header></div>
+                <div align="center">
+                    <span class="Txt">Choose an option:</span>
+                    <select class="Yel" value="Choose an option" name="Sel" onchange="f.HTML.Choose(this.selectedIndex)">
+                        <option></option>
+                        <option>one extraction per click</option>
+                        <option>groups extraction</option>
+                        <option>full extraction</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div id="Out"></div>
+                <div align="center" id="Out2" style="display:none;">
+                    <h3 class="Txt"><b><u>How many students for each group?</u></b></h3>
+                    <br>
+                    <input class="Yel" type="text" name="StudentNumber" value="Digit here" onclick="this.value = ''"> &nbsp;
+                    <input class="Yel" type="button" name="Engender" value="Engender">
+                </div>
+                <div id="Groups"></div>
+            </div>
+            <br>
+            <div class="Head" style="float:left; display:block;">
+                <div id="List"></div> 
+            </div>
+            <div class="Head" id="List2" style="float:right; display:none;"></div>
+            <div style="clear:both;"></div>
+        </form>
+    </body>
+</html>
